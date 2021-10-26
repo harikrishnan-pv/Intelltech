@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #3284f1;
+  background: #f1ae32;
   color: #fff;
 }
 .back-to-top.active {
@@ -1557,4 +1557,14 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+.maas:hover{
+  background-color: #f18926;
+}
+
+.featured-services .icon-box .maas:hover::before {
+  background: #ea103f;
+  top: 0;
+  border-radius: 0px;
 }
