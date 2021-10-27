@@ -686,8 +686,20 @@
   </footer>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  
+  <script async type="text/javascript">
+    !function () {
+      if (window.JOONBOT_WIDGET_ID) {
+        console.warn("Joonbot snippet included twice");
+      } else {
+        window.JOONBOT_WIDGET_ID = "a45234ee-a359-4a39-a049-8d2628433f70";
+        var n, o;
+        o = document.createElement("script");
+        o.src = "https://js.joonbot.com/init.js", o.defer = !0, o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous";
+        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+      }
+    }()
+    </script>
 
 
   <script src="assets/vendor/aos/aos.js"></script>
