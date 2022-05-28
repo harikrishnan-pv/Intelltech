@@ -770,10 +770,10 @@ section {
   text-align: center;
 }
 .clients img {
-  max-width: 45%;
+  max-width: 200px;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
+  margin: 40px;
 }
 .clients img:hover {
   transform: scale(1.15);
