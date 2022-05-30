@@ -770,7 +770,7 @@ section {
   text-align: center;
 }
 .clients img {
-  max-width: 200px;
+  max-width: 100px;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   margin: 40px;
